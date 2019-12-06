@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">glumeBune</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="injuraturi">
+        <item>Pula</item>
+        <item>pula</item>
+        <item>PULA</item>
+        <item>puLa</item>
+        <item>Pizada</item>
+        <item>pizada</item>
+        <item>cacat</item>
+        <item>Cacat</item>
+        <item>sperma</item>
+        <item>sex</item>
+
+    </string-array>
+</resources>

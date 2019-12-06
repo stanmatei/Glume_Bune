@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mple.matei.glumebune.settFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cu">
+
+
+        <Button
+            android:id="@+id/ett_btn_clasic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sett_btn_extra"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_sett"
+            android:text="Classic"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/sett_btn_extra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sett_btn_log"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_sett"
+            android:text="About"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/sett_btn_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Log out"
+            android:background="@drawable/btn_sett"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+</FrameLayout>

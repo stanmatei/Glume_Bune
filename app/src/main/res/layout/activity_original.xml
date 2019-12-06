@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffecb3"
+    tools:context="com.mple.matei.glumebune.original">
+
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9142920140009248/7162252227">
+    </com.google.android.gms.ads.AdView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="false"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9142920140009248/1718353851">
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glume originale, nu le mai gasesti in alta parte!--- Da swipe petru mai multe glume---Apasa de doua ori pe ecran pentru glumele anterioare"
+        android:id="@+id/pisi"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/adView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   De cate ori am apasat?  "
+        android:id="@+id/highsoce"
+        android:background="#fff"
+        android:textColor="#000"
+        android:textSize="10dp"
+        android:onClick="high"
+        android:layout_below="@+id/adView3"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/button311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView4"
+        android:layout_alignEnd="@+id/adView4"
+        android:layout_alignRight="@+id/adView4"
+        android:background="#ffff00"
+        android:text="✰"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button312"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView4"
+        android:layout_toLeftOf="@+id/highsoce"
+        android:layout_toStartOf="@+id/highsoce"
+        android:background="#ffff00"
+        android:text="share" />
+
+
+</RelativeLayout>

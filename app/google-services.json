@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "932427554952",
+    "firebase_url": "https://glumebune-ed5c7.firebaseio.com",
+    "project_id": "glumebune-ed5c7",
+    "storage_bucket": "glumebune-ed5c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932427554952:android:caba764c2729aa46",
+        "android_client_info": {
+          "package_name": "com.mple.matei.glumebune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932427554952-ghbv4trc525i1g5udlatjei8v4tg2jug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mple.matei.glumebune",
+            "certificate_hash": "42c223a976c2a8020b540f4e1cea96d351fb3ae1"
+          }
+        },
+        {
+          "client_id": "932427554952-l0ts2cdrf3pscge5ad9soobabg8ku092.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mple.matei.glumebune",
+            "certificate_hash": "aa74508f3df30a5a53304d2d6542f85e6210afd7"
+          }
+        },
+        {
+          "client_id": "932427554952-t3filsdl5pv2s6617pc43frukkc596j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxr6Ut59e7XR7eAmtsyBtNMMifVHNH2q0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932427554952-t3filsdl5pv2s6617pc43frukkc596j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

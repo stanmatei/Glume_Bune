@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Acasa"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+    <item
+        android:id="@+id/vechi"
+        android:title="Almanah"
+        android:icon="@drawable/ic_library_books_black_24dp"
+        />
+    <item
+        android:id="@+id/favs"
+        android:title="Favorite"
+        android:icon="@drawable/ic_star_black_24dp"
+        />
+
+    <item
+        android:id="@+id/sett"
+        android:title="Setari"
+        android:icon="@drawable/ic_settings_black_24dp"
+        />
+
+</menu>
